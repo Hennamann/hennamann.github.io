@@ -2,7 +2,7 @@
 layout: post
 title: "Using cefclient for CEP Extension Debugging"
 description: "Among the million things i hate about CEP extension development, debugging has been one of my biggest complaints with it. Until today. "
-date: 2017-27-07
+date: 2017-07-27
 tags: [CEP, CEF, Extensions, Development]
 comments: true
 share: true
