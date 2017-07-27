@@ -5,9 +5,21 @@
 # Basic
 name:               "Ole Henrik Stabell's Development Blog"
 
-author: Ole Henrik Stabell
+author:
+  facebook:         
+  youtubeUser:      
+  youtubeChannel:   
+  twitter:          
   github:           hennamann
+  stackoverflow:    
+  quora:            
+  linkedin:         
+  pinterest:        
+  googlePlus:       
+  instagram:        
+  reddit:           
   medium:           hennamann
+  tumblr:           
   email:            ole@henrikstabell.com
 
 copyright:
