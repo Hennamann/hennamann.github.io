@@ -200,7 +200,6 @@ body {
       margin-bottom: .3rem;
       font-size : 1.8rem;
       font-weight: 600;
-      float: right;
     }
 
     &-date {
@@ -208,16 +207,11 @@ body {
       font-size: .8rem;
       text-transform: uppercase;
     }
-    
-    &-img {
-      float: left;
-    }
 
     &-desc {
       color: $base-color;
       margin-bottom: .25rem;
       font-size :1rem;
-      float: right;
     }
   }
 
@@ -225,7 +219,6 @@ body {
     margin-top: 4rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    // text-transform: lowercase;
 
     &-previous {
       float: left;
