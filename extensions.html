@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<header class="header">
+  <div class="header-title">
+    <a href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}</a>
+  </div>
+  <nav class="header-nav">
+    {% for nav in site.nav %}
+    {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+    <a href="{{ nav.url }}">{{ nav.name }}</a>
+    {% else %}
+    <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
+    {% endif %}
+    {% endfor %}
+  </nav>
+</header>
+
+<div class="list">
+  <div class="list-post">
+    <a href="https://exchange.adobe.com/addons/products/19469">
+      <div class="list-post-title">Notes Panel for Adobe Audition</div>
+      <div class="list-post-desc">The Notes Panel for Adobe Audition is an extension for Adobe Audition, that allows you to write notes for your multitrack sessions or audio files. It’s similar to the notes functionality found in Logic Pro X on MacOS.</div>
+    </a>
+  </div>
+  <div class="list-post">
+    <a href="https://exchange.adobe.com/addons/products/16095">
+      <div class="list-post-title">Google Photos Panel for Adobe Photoshop</div>
+      <div class="list-post-desc">A small panel that loads Google Photos and allows you to browse images that you have uploaded to Google Photos, you can also upload images from your computer using either the Finder (Mac) or the File Explorer (Windows).</div>
+    </a>
+  </div>
+    <div class="list-post">
+    <a href="https://exchange.adobe.com/addons/products/16237">
+      <div class="list-post-title">Retinizer for Adobe Photoshop</div>
+      <div class="list-post-desc">A simple extension that allows you to slice your icons, and high resolution images for use on retina capable devices, like the Macbook Pro, iMac, iPhone and iPad.</div>
+    </a>
+  </div>
+  <div class="list-post">
+    <a href="https://github.com/Hennamann/Script-Loader-for-Adobe-Audition">
+      <div class="list-post-title">Script Loader for Adobe Audition</div>
+      <div class="list-post-desc">A development focused extension, allowing you to load .jsx scripts into Audition without using CEP directly, this is useful when testing extendscript scripts in Audition.</div>
+    </a>
+  </div>
+</div>
