@@ -3,9 +3,9 @@
 /*--------------
   Font
   -------------- */
-$base-font: 'Spoqa Han Sans', 'Source Sans Pro', Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
-$code-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
-$code-gist-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
+$base-font: 'Open Sans', sans-serif;
+$code-font: Menlo, 'Ubuntu Mono', Monaco, monospace;
+$code-gist-font: Menlo, 'Ubuntu Mono', Monaco, monospace;
 
 $base-font-size: 18px;
 $base-font-size-sm: 14px;
@@ -16,13 +16,13 @@ $mobile-font-size: 16px;
 /*--------------
   Color
   -------------- */
-$base-color: $oc-gray-8;
+$base-color: #eee;
 $base-lighten-color: $oc-gray-6;
 
-$background-color: $oc-white;
-$background-over-color: $oc-gray-1;
+$background-color: #222222;
+$background-over-color: #333333;
 
-$text-color: $oc-gray-8;
+$text-color: $oc-white;
 $link-color: $oc-blue-8;
 $code-color: $oc-indigo-9;
 $code-background-color: $oc-gray-1;
