@@ -5,7 +5,7 @@
 # Basic
 name:               "Ole Henrik Stabell"
 
-caption:            "Developer & Photographer"
+caption:            "Broadcasting and Multimedia Student + Adobe Extension Developer"
 
 author:
   facebook:         
@@ -20,12 +20,12 @@ author:
   googlePlus:       
   instagram:        
   reddit:           
-  medium:           hennamann
+  medium:           
   tumblr:           
   email:            ole@henrikstabell.com
 
 copyright:
-  year:             2017
+  year:             2019
   name:             Ole Henrik Stabell
 
 # Google-analytics
@@ -57,13 +57,11 @@ kramdown:
 
 # Navigation
 nav:
-  - name:           "Portfolio"
-    url:            "https://henrikstabell.com"
   - name:           "Archive"
     url:            "/archive"
   - name:           "Tags"
     url:            "/tags"
-  - name:           "Extensions"
+  - name:           "Projects"
     url:            "/extensions"
   - name:           "Github"
     url:            "https://github.com/hennamann"
